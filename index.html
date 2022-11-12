@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/709fb3a575.js" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Portifólio Eduardo Fleury</title>
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<nav class="nav-bar">
+				<div class="nav-list">
+					<ul>
+						<li class="nav-item"><a href="#inicio" class="nav-link">Ínicio</a></li>
+						<li class="nav-item"><a href="#mim" class="nav-link">Sobre Mim</a></li>
+						<li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+					</ul>
+				</div>
+
+				<div class="mobile-menu-icon">
+					<button onclick="abrirMenu()"><i class="fa-solid fa-bars icon"></i></button>
+				</div>
+			</nav>
+
+			<div class="mobile-menu">
+				<ul>
+					<li class="nav-item"><a href="#inicio" class="nav-link">Ínicio</a></li>
+					<li class="nav-item"><a href="#mim" class="nav-link">Sobre mim</a></li>
+					<li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- primeira parte -->
+		<section class="topo">
+
+			<div class="topo-desk">
+				<a href="" name="inicio"></a>
+				<h1>Portifolio</h1>
+				<h3>Web Designer <span>&amp;</span> Developer</h3>
+				<h2 class="h2-desk">Eduardo Fleury</h2>
+			</div>
+
+			<img src="ilustracao.svg" onclick="ilustracao()">
+			<h2 class="h2-mob">Eduardo Fleury</h2>
+		</section>
+
+		<!-- meio do port -->
+		<section class="mid">
+			<a href="" name="mim"></a>
+			<div class="sobre-mim">
+				<div class="texto-sobre">
+					<h1 class="s">Sobre mim</h1>
+					<p>Olá, Me chamo Eduardo Pina Fleury Fortuna e tenho 19 anos, sou desenvolvedor e web designer em constante evolução, me encontrei na programação e hoje em dia adoro estudar sobre e me desafiar em alguns projetos.</p>
+					<p>Sou aluno de Sistemas de Informação pela Universidade Federal de Goiás UFG e atualmente estou cursando o 4° período.</p>
+				</div>
+
+				<div>
+					<img src="eu.png">
+				</div>
+			</div>
+
+			<div class="sobre-mim skill">
+
+				<div class="ilustracao">
+					<img src="l2.svg" onclick="ilustracaodois()">
+				</div>
+
+				<div class="skill2">
+					<h1>Skills</h1>
+					<div class="icon-skill">
+						<div class="icon-skill-child">
+							<i class="fa-brands fa-html5"></i>
+							<h4>HTML5</h4>
+						</div>
+						<div class="icon-skill-child">
+							<i class="fa-brands fa-css3-alt"></i>
+							<h4>CSS3</h4>
+						</div>
+
+						<div class="icon-skill-child">
+							<i class="fa-brands fa-square-js"></i>
+							<h4>Java Script</h4>
+						</div>
+
+						<div  class =" icon-skill-child " >
+							<i class="fa-brands fa-java"></i>
+							<h4> Java </h4>
+						</div>
+
+						<div class="icon-skill-child">
+							<i class="fa-solid fa-database"></i>
+							<h4>PL/SQL &amp; SQL</h4>
+						</div>
+
+						<div class="icon-skill-child">
+							<i class="fa-solid fa-c"></i>
+							<h4>C</h4>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="projetos">
+			<div class="meus-projetos">
+				<h1>Meus Projetos</h1>
+				<a href="" name="projetos"></a>
+
+				<div class="img-projetos">
+					<div class="linha-proj"><label onclick="abrirGuia1()"><img src="1.png"><h4>Range Hotels</h4></label></div>
+					<div class="linha-proj"><label onclick="abrirGuia2()"><img src="2.png"><h4>Jornal da Cidade</h4></label></div>
+					<div class="linha-proj"><label onclick="abrirGuia3()"><img src="3.png"><h4>Página de Captura</h4></label></div>
+					<div class="linha-proj"><label onclick="abrirGuia4()"><img src="4.png"><h4>App Clima</h4></label></div>
+					<div class="linha-proj"><label onclick="abrirGuia5()"><img src="5.png"><h4>Landing Page</h4></label></div>
+					<div class="linha-proj"><label onclick="abrirGuia6()"><img src="6.png"><h4>App Despesas</h4></label></div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="contato">
+				<a href="https://www.instagram.com/dudu.developer/"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+
+			<div class="contato">
+				<a href="https://www.linkedin.com/in/eduardo-pina-fleury-fortuna-51a57021b/"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+
+			<div class="contato">
+				<a href="mailto:eduardopinafleury@gmail.com?"><i class="fa-solid fa-envelope"></i></a>
+			</div>
+
+			<div class="contato">
+				<a href="https://github.com/EduFleury"><i class="fa-brands fa-github"></i></a>
+			</div>
+		</footer>
+	</div>
+	<script src="portifolio.js"></script>
+</body>
+</html>

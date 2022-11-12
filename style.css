@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background: #051821;
+}
+
+header{
+	background: #051821;
+}
+
+/*-------------TOPO NAV------------------*/
+
+.container{
+	width: 100%;
+	height: 100vh;
+}
+
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 1rem;
+}
+
+.logo h1{
+	color: #fff;
+}
+
+.nav-list{
+	display: none;
+}
+
+.nav-item{
+	display: none;
+}
+
+.nav-link{
+	text-decoration: none;
+	font-size: 1.15rem;
+	color: #fafafa;
+	font-weight: 400;
+}
+
+.mobile-menu-icon{
+	display: block;
+}
+
+.mobile-menu-icon button{
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+	}
+
+	.mobile-menu-icon button i{
+		font-size: 2rem;
+		color: #f58800;
+	}
+
+.mobile-menu ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.mobile-menu ul li{
+	transition: all .3s;
+}
+
+.mobile-menu ul li:hover{
+	transform: scale(1.2);
+}
+
+.mobile-menu ul li a:hover{
+	color: #f8bc24;
+}
+
+.mobile-menu .nav-item{
+	display: block;
+	padding-top: 1.2rem;
+}
+
+.mobile-menu{
+	display: block;
+	padding: 1rem 2rem;
+}
+
+.mobile-menu{
+	display: none;
+}
+
+.open{
+	display: block;
+}
+
+.red{
+	color: red !important;
+}
+
+/*-------------------PRIMEIRA PARTE----------------*/
+
+.topo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fafafa;
+	margin-bottom: 30px;
+}
+
+.topo h1{
+	font-size: 4em;
+ 	background: #F58800;
+background: -webkit-linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+background: -moz-linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+background: linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.topo h3 span{
+	background: #F58800;
+background: -webkit-linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+background: -moz-linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+background: linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.topo .h2-desk{
+	display: none;
+}
+
+.topo img{
+	max-width: 500px;
+}
+
+/*-------------------------MEIO----------------------*/
+
+.mid{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sobre-mim{
+	display: flex;
+	width: 90%;
+	flex-direction: column;
+	align-items: center;
+	color: #fafafa;
+	margin: 30px 0;
+	border-radius: 10px;
+}
+
+.sobre-mim h1{
+	color: #f8bc24;
+	font-size: 2em;
+}
+
+.sobre-mim p{
+	text-align: center;
+	font-weight: bold;
+	margin: 0 20px;
+}
+
+.sobre-mim img{
+	max-width: 300px;
+}
+
+.texto-sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.skill2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.icon-skill{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.icon-skill-child{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px;
+	width: 100px;
+}
+
+.icon-skill-child i{
+	color: #f58800;
+	font-size: 3em;
+}
+
+.icon-skill-child h4{
+	font-size: 0.9em;
+}
+
+/*------------PROJETOS---------------*/
+
+.projetos{
+	color: #fafafa;
+	margin-bottom: 100px;
+}
+
+.meus-projetos{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.meus-projetos h1{
+	color: #f8bc24;
+	font-size: 2em;
+}
+
+.img-projetos{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.img-projetos div{
+	margin: 20px;
+}
+
+.linha-proj{
+	width: 100px;
+	padding: 10px;
+	transition: all .3;
+}
+
+.linha-proj:hover{
+	transform: scale(1.1);
+	color: #f8bc24;
+}
+
+.linha-proj label img{
+	max-width: 100px;
+}
+
+.ilustracao img{
+	display: none;
+}
+
+/*-----------RODAPE------------*/
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+footer i{
+	margin: 10px;
+	font-size: 2em;
+	color: #051821;
+	transition: all .3;
+	padding: 15px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+	background: -moz-linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+	background: linear-gradient(to right, #F58800 31%, #F8BC24 100%);
+}
+
+footer i:hover{
+	transform: scale(1.2);
+}
+
+/*----------------------------------------------*/
+/*----------   ACIMA DE 730PX    --------------*/
+/*----------------------------------------------*/
+@media screen and (min-width: 45.625em){
+	header{
+		background: transparent;
+	}
+
+	.nav-bar{
+		padding: 1.5rem 6rem;
+		display: flex;
+		justify-content: center;
+	}
+
+	.nav-list{
+		display: flex;
+		align-items: center;
+	}	
+
+	.nav-list ul{
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+	}
+
+	.nav-list ul li{
+		margin: 0 50px;
+		transition: all .3s;
+	}
+
+	.nav-list ul li:hover{
+		transform: scale(1.2);
+	}
+
+	.nav-list ul li a:hover{
+		color: #f8bc24;
+	}
+
+	.nav-item{
+		margin: 0 15px;
+		display: block;
+	}
+
+	.mobile-menu-icon{
+		display: none;
+	}
+
+	.mobile-menu{
+		display: none;
+	}
+}
+
+/*----------------------------------------------*/
+/*----------   ACIMA DE 1280PX    --------------*/
+/*----------------------------------------------*/
+@media screen and (min-width: 80em){
+
+/*----------topo-----------------------*/
+	.topo{
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin: 50px 0 130px 0;
+	}
+
+	.topo-desk{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.topo div{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.topo h1{
+		font-size: 6em;
+	}
+
+	.topo h3{
+		font-size: 2em;
+	}
+
+	.topo img{
+		max-width: 600px;
+	}
+
+	.topo .h2-desk{
+		display: block;
+	}
+
+	.topo .h2-mob{
+		display: none;
+	}
+
+/*--------------meio----------------*/
+
+.mid{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 150px;
+}
+
+.sobre-mim{
+	flex-direction: row;
+}
+
+.sobre-mim div img{
+	max-width: 400px !important;
+}
+
+.texto-sobre{
+	width: 60%;
+	margin-right: 50px;
+}
+
+.texto-sobre h1{
+	font-size: 3em;
+}
+
+.texto-sobre p{
+	font-size: 1em;
+}
+
+.skill{
+	display: flex;
+	flex-direction: row;
+}
+
+.skill h1{
+	font-size: 3em;
+}
+
+
+.ilustracao img{
+	display: block;
+	width: 1000px;
+	margin-right: 300px;
+}
+
+.skill2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+/*---------------projetos-----------------*/
+
+.projetos h1{
+	font-size: 3em;
+}
+
+.linha-proj{
+	width: 180px;
+	margin: 40px;
+}
+
+.linha-proj label{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.linha-proj img{
+	max-width: 180px !important;
+}
+
+/*-------rodape----------*/
+footer i{
+	padding: 20px;
+	margin: 15px;
+}
+
+}
