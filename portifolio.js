@@ -22,7 +22,7 @@ function abrirGuia1(){
 }
 
 function abrirGuia2(){
-	window.location.href = "https://6332dff883d7ed2638896029--projetoseduardofleury.netlify.app/" 
+	window.location.href = "https://edufleury.github.io/Cidade/" 
 }
 
 function abrirGuia3(){
