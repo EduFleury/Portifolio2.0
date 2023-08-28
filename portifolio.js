@@ -41,6 +41,10 @@ function abrirGuia6(){
 	window.location.href = "https://edufleury.github.io/App_Orcamento/"
 }
 
+function abrirGuia7(){
+	window.location.href = "https://github.com/EduFleury/Api-GitHub"
+}
+
 function ilustracao(){
 	window.location.href = "https://storyset.com/technology"
 }
