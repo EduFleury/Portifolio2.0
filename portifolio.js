@@ -53,6 +53,10 @@ function abrirGuia9(){
 	window.location.href = "https://github.com/EduFleury/chess-system-Java"
 }
 
+function abrirGuia10(){
+	window.location.href = "https://github.com/EduFleury/Buscador-de-Cep"
+}
+
 function ilustracao(){
 	window.location.href = "https://storyset.com/technology"
 }
