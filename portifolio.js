@@ -49,6 +49,10 @@ function abrirGuia8(){
 	window.location.href = "https://github.com/EduFleury/Organo-Edu"
 }
 
+function abrirGuia9(){
+	window.location.href = "https://github.com/EduFleury/chess-system-Java"
+}
+
 function ilustracao(){
 	window.location.href = "https://storyset.com/technology"
 }
