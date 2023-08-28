@@ -45,6 +45,10 @@ function abrirGuia7(){
 	window.location.href = "https://github.com/EduFleury/Api-GitHub"
 }
 
+function abrirGuia8(){
+	window.location.href = "https://github.com/EduFleury/Organo-Edu"
+}
+
 function ilustracao(){
 	window.location.href = "https://storyset.com/technology"
 }
